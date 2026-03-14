@@ -150,7 +150,7 @@ export default function Home() {
         </section>
 
         <section className="relative hidden w-full overflow-hidden bg-black md:block md:min-h-[220vh]">
-          <div className="sticky top-0 h-screen h-screen-fix w-full">
+          <div className="sticky top-[90rem] h-screen h-screen-fix w-full">
             <LetsTalk />
           </div>
 
