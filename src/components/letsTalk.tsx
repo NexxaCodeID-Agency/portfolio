@@ -40,6 +40,7 @@ export default function LetsTalk() {
           hideDefaultCursor
           parallaxOn
           hoverDuration={0.2}
+          
         />
         <div className=" hidden md:flex absolute inset-x-0 top-1/2 -translate-y-1/2 opacity-30">
           <CurvedLoop
