@@ -9,19 +9,19 @@ const partners = [
     id: 1,
     name: "Raditya Rangga Pratama",
     role: "Cyber Security Specialist",
-    image: "/radityaa.png",
+    image: "/radityaa.webp",
   },
   {
     id: 2,
     name: "Fathir Robbany Giblatar",
     role: "Project Manager",
-    image: "/fathir.png",
+    image: "/fathir.webp",
   },
   {
     id: 3,
     name: "Fang Xiao",
     role: "FullStack Developer",
-    image: "/feng.png",
+    image: "/feng.webp",
   },
 ];
 
