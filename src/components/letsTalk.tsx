@@ -3,27 +3,27 @@
 import CurvedLoop from "./CurvedLoop";
 import TargetCursor from "./TargetCursor";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faLinkedinIn, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
   {
     id: 1,
-    link: "https://wa.me/6285755976426",
+    link: "https://wa.me/6285122908813",
     logo: faWhatsapp,
     name: "WhatsApp",
   },
   {
     id: 2,
-    link: "https://wa.me/6285755976426",
-    logo: faWhatsapp,
-    name: "WhatsApp",
+    link: "https://www.linkedin.com/in/radhitya-rangga-pratama-0474b23b7/",
+    logo: faLinkedinIn,
+    name: "LinkedIn",
   },
   {
     id: 3,
-    link: "https://wa.me/6285755976426",
-    logo: faWhatsapp,
-    name: "WhatsApp",
+    link: "https://www.instagram.com/nexxacodeid?igsh=MTRtdnJ4bXAxaWtodw==",
+    logo: faInstagramSquare,
+    name: "Instagram",
   },
 ];
 
