@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import GradientText from "@/components/GradientText";
 import { NavbarDemo } from "@/components/rezable-navbar";
-import SvgComponent1 from "@/components/svg";
 import SvgComponent from "@/components/svgC";
 import CircularText from "@/components/CircularText";
 import CurvedLoop from "@/components/CurvedLoop";
@@ -18,6 +17,7 @@ import Services from "@/components/services";
 import Partner from "@/components/partner";
 import LetsTalk from "@/components/letsTalk";
 import TargetCursor from "@/components/TargetCursor";
+import Button from "@/components/button";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -46,12 +46,12 @@ export default function Home() {
           parallaxOn
           hoverDuration={0.2}
         />
-        <section className="z-50">
+        <section id="home" className="z-50">
           <section className="w-full px-4 min-h-screen">
             <NavbarDemo />
             <div className="grid grid-cols-1 gap-10 items-center max-w-screen ">
               <div className=" flex flex-col justify-center items-center md:items-start order-2 md:order-1 text-center md:text-left">
-                <div className="relative top-20 mb-6 flex text-center w-full flex items-center justify-center md:justify-start md:left-12 md:top-80 ">
+                <div className="relative top-20 mb-6 flex text-center w-full flex-col items-center justify-center md:justify-start md:left-12 md:top-80 ">
                   {""}
 
                   <GradientText
@@ -72,12 +72,15 @@ export default function Home() {
                       your audience love .
                     </p>
                   </div>
+                  <div className="flex relative cursor-target items-center justify-center top-[16rem] md:top-[14rem] md:scale-120 ">
+                    <Button />
+                  </div>
                 </div>
                 <div className="w-120 h-120 md:w-170 md:h-170 rounded-full bg-cyan-400 md:top-0 top-80 absolute md:m-0 md:p-0 -z-1 blur-2xl opacity-20 right-70 md:right-290 md:bottom-60 "></div>
                 <div className="w-120 h-120 hidden md:block md:items-end md:justify-end  rounded-full bg-cyan-400 md:top-0 md:m-0 md:p-0 -z-1 blur-2xl absolute opacity-20 left-200  "></div>
               </div>
               <div className=" md:col-span-6 flex flex-col items-center md:items-start text-center md:text-left order-1 md:order-2 ">
-                <div className="relative flex top-120 right-20 items-center justify-center md:right-150 md:top-140 ">
+                <div className="relative flex top-140 right-30 items-center justify-center md:right-0 md:top-100 ">
                   <SvgComponent />
                   <div className="absolute flex items-center justify-center pointer-events-none md:text-center md:items-center md:justify-center">
                     <CircularText

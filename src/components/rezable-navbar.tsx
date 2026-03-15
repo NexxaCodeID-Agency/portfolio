@@ -16,24 +16,18 @@ export function NavbarDemo() {
   const navItems = [
     {
       name: "HOME",
-      link: "#features",
+      link: "/#home",
     },
     {
       name: "ABOUT",
-      link: "#pricing",
+      link: "/#about",
     },
-    {
-      name: "SERTIFITY",
-      link: "#contact",
-    },
+
     {
       name: "SERVICES",
-      link: "#services",
+      link: "/#services",
     },
-    {
-        name: "EN",
-        link: "#en",
-    }
+
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

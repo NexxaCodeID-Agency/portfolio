@@ -154,7 +154,7 @@ export default function Services() {
           </div>
           <a
             href="#contact"
-            className="inline-flex items-center gap-3 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-200 transition-colors hover:border-emerald-300/60 hover:bg-emerald-400/20"
+            className="inline-flex cursor-target items-center gap-3 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-200 transition-colors hover:border-emerald-300/60 hover:bg-emerald-400/20"
           >
             Let&apos;s Talk
             <svg

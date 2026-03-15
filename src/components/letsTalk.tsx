@@ -1,9 +1,12 @@
 "use client";
 
 import CurvedLoop from "./CurvedLoop";
-import TargetCursor from "./TargetCursor";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp, faLinkedinIn, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import {
+  faWhatsapp,
+  faLinkedinIn,
+  faInstagramSquare,
+} from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
@@ -29,12 +32,8 @@ const links = [
 
 export default function LetsTalk() {
   return (
-    <section
-      
-      className="relative flex min-h-[100svh] w-full flex-col items-center justify-center overflow-hidden bg-black px-4 py-16 text-white md:h-screen md:px-6"
-    >
+    <section className="relative flex min-h-[100svh] w-full flex-col items-center justify-center overflow-hidden bg-black px-4 py-16 text-white md:h-screen md:px-6">
       <div>
-
         <div className=" hidden md:flex absolute inset-x-0 top-1/2 -translate-y-1/2 opacity-30">
           <CurvedLoop
             marqueeText="Let's Talk Let's Talk Let's Talk Let's Talk Let's Talk Let's Talk Let's Talk Let's Talk "
@@ -64,7 +63,7 @@ export default function LetsTalk() {
             key={link.id}
             href={link.link}
             target="_blank"
-            className="group cursor-target relative flex flex-1 cursor-target items-center justify-center gap-3 border-b border-white/20 py-6 transition-all duration-500 hover:bg-[#0a1a1a] rounded-full last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 md:py-8"
+            className="group relative flex flex-1 cursor-target items-center justify-center gap-3 border-b border-white/20 py-6 transition-all duration-500 hover:bg-[#0a1a1a] rounded-full last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 md:py-8"
           >
             <FontAwesomeIcon
               icon={link.logo}
