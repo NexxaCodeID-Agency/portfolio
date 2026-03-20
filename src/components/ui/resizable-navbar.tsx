@@ -199,6 +199,7 @@ export const MobileNavMenu = ({
 }: MobileNavMenuProps) => {
   return (
     <AnimatePresence>
+            
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, scale: 0.95, y: -20 }} // Mulai dari agak atas & kecil
@@ -206,7 +207,7 @@ export const MobileNavMenu = ({
           exit={{ opacity: 0, scale: 0.95, y: -20 }} // Keluar balik ke atas
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
           className={cn(
-            "absolute inset-x-4 top-26 z-0 flex flex-col gap-4 rounded-2xl bg-white/10 backdrop-blur-xl border border-white/20 p-6 shadow-2xl dark:bg-black/80",
+            "absolute inset-x-4 top-26 z-0 flex flex-col gap-4 rounded-2xl bg-neutral-900/90  backdrop-blur-xl border border-white/20 p-6 shadow-2xl dark:bg-black/80",
             className,
           )}
         >
