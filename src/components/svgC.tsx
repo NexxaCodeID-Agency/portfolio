@@ -91,7 +91,7 @@ const SvgComponent = (props: React.SVGAttributes<SVGSVGElement>) => {
               />
             </filter>
             <image
-              href="/nexxa.png"
+              href="/nexxa.avif"
               id={dMobile}
               width={500}
               height={500}
@@ -175,7 +175,7 @@ const SvgComponent = (props: React.SVGAttributes<SVGSVGElement>) => {
               />
             </filter>
             <image
-              href="/nexxa.png"
+              href="/nexxa.avif"
               id={dDesktop}
               width={500}
               height={500}

@@ -198,7 +198,6 @@ export const MobileNavMenu = ({
 }: MobileNavMenuProps) => {
   return (
     <AnimatePresence>
-            
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, scale: 0.95, y: -20 }} // Mulai dari agak atas & kecil
@@ -225,9 +224,15 @@ export const MobileNavToggle = ({
   onClick: () => void;
 }) => {
   return isOpen ? (
-    <IconX className="text-white dark:text-white/60 backdrop-blur-3xl" onClick={onClick} />
+    <IconX
+      className="text-white dark:text-white/60 backdrop-blur-3xl"
+      onClick={onClick}
+    />
   ) : (
-    <IconMenu2 className="text-white dark:text-white/60 backdrop-blur-3xl" onClick={onClick} />
+    <IconMenu2
+      className="text-white dark:text-white/60 backdrop-blur-3xl"
+      onClick={onClick}
+    />
   );
 };
 
@@ -237,8 +242,7 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center right-10 space-x-2 px-2 py-1 text-sm font-normal text-white"
     >
-      <Image src="/nexxa.png" alt="logo" width={80} height={80} />
+      <Image src="/nexxa.avif" alt="logo" width={80} height={80} />
     </a>
   );
 };
-

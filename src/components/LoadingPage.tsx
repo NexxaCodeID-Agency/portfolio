@@ -6,7 +6,7 @@ export default function LoadingPage() {
   return (
     <div className="fixed inset-0 z-9999 flex flex-col items-center justify-center bg-black font-sans ">
       <div className="relative w-24 h-24 border border-white/10 rounded-full flex items-center justify-center">
-        <Image src="/nexxa.png" alt="nexxacode logo" width={80} height={80} />
+        <Image src="/nexxa.avif" alt="nexxacode logo" width={80} height={80} />
       </div>
       
 

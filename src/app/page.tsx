@@ -83,7 +83,9 @@ export default function Home() {
 
                     <div className="absolute mt-55 md:mt-0 md:ml-6 md:mb-0">
                       <p className="text-white text-4xl md:text-6xl font-extrabold font-serif">
-                        Agency-level web development services at freelancer rates</p>
+                        Agency-level web development services at freelancer
+                        rates
+                      </p>
                       <p className="text-sm mt-3">
                         our mission is to design and develop a website that you
                         and your audience love .
@@ -169,10 +171,7 @@ export default function Home() {
               </div>
             </section>
 
-            <section
-              id="services"
-              className="relative -mt-8 w-full md:mt-160"
-            >
+            <section id="services" className="relative -mt-8 w-full md:mt-160">
               <Services />
             </section>
           </section>

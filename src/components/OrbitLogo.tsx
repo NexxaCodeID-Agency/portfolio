@@ -7,7 +7,7 @@ const OrbitCircle = () => {
       <div className=" w-80 h-80 border border-dashed border-white/40 rounded-full "></div>
       <Image
         className=" absolute w-50 h-50 object-contain animate-[spin_10s_linear_infinite] "
-        src="/react.png"
+        src="/react.avif"
         alt="react icon"
         width={200}
         height={200}
@@ -26,7 +26,7 @@ const OrbitCircle = () => {
       {/* Bungkus Logo Laravel di sisi berlawanan */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">
         <Image
-          src="/laravel.png"
+          src="/laravel.avif"
           alt="laravel"
           className="w-16 h-16 animate-[spin_10s_linear_infinite_reverse]"
           width={64}
