@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nexxacodeid.site"),
   // Catchy title with your 3 main keywords
   title: "NexxxaCodeID | Web Developer, SEO Expert & Website Maintenance",
   description:
