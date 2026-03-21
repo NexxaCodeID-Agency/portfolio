@@ -9,17 +9,17 @@ export const products = [
   {
     title: "AikoCare",
     link: "https://aikocare.vercel.app/",
-    thumbnail: ["/aikocare.avif"],
+    thumbnail: ["/aikocare.png"],
   },
   {
     title: "ThunderAi",
     link: "https://chat-ai-sigma.vercel.app/",
-    thumbnail: ["/thunderAi.avif"],
+    thumbnail: ["/thunderAi.png"],
   },
   {
     title: "YayasanNivara",
     link: "https://yayasan-nivara-indonesia.vercel.app/",
-    thumbnail: ["/yayasannivara.avif"],
+    thumbnail: ["/yayasannivara.png"],
   },
 
   {

@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: "NexxxaCodeID",
     images: [
       {
-        url: "/og-image.jpg", // Make sure this 1200x630px file is in your /public folder!
+        url: "/og-image.jpeg", // Make sure this 1200x630px file is in your /public folder!
         width: 1200,
         height: 630,
         alt: "NexxxaCodeID - Web Development, SEO & Maintenance Agency",
       },
     ],
-    locale: "en_US",
+    locale: "id_ID",
     type: "website",
   },
 
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "NexxxaCodeID | Web Dev & SEO Solutions",
     description:
       "Expert Web Developer, SEO, and Website Maintenance services for your business.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.jpeg"],
   },
 
   // Indexing for Google
