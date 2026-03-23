@@ -18,7 +18,7 @@ const links = [
   },
   {
     id: 2,
-    link: "https://www.linkedin.com/in/radhitya-rangga-pratama-0474b23b7/",
+    link: "www.linkedin.com/in/nexxacode-id-4064873a2",
     logo: faLinkedinIn,
     name: "LinkedIn",
   },
