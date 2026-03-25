@@ -18,7 +18,7 @@ const links = [
   },
   {
     id: 2,
-    link: "www.linkedin.com/in/nexxacode-id-4064873a2",
+    link: "https://www.linkedin.com/in/nexxacode-id-4064873a2/",
     logo: faLinkedinIn,
     name: "LinkedIn",
   },
