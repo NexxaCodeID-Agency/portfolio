@@ -6,8 +6,6 @@ export async function POST(request: NextRequest) {
   try {
     const { url } = await request.json(); // URL yang mau di-index
 
-    // Path ke file JSON lo
-    const keyPath = path.join(process.cwd(), "google-key.json");
 
 const auth = new google.auth.GoogleAuth({
   credentials: {
