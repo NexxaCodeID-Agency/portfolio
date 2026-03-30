@@ -45,6 +45,13 @@ export const metadata: Metadata = {
         alt: "NexxaCodeID - Web Development, SEO & Maintenance Agency",
       },
     ],
+    alternates: {
+    canonical: "https://nexxacodeid.site", // URL utama
+    languages: {
+      "id-ID": "https://nexxacodeid.site/id",
+      "en-US": "https://nexxacodeid.site/en",
+    },
+  },
     locale: "id_ID",
     type: "website",
   },
