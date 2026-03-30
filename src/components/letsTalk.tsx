@@ -6,6 +6,7 @@ import {
   faWhatsapp,
   faLinkedinIn,
   faInstagramSquare,
+  faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
@@ -27,6 +28,12 @@ const links = [
     link: "https://www.instagram.com/nexxacodeid?igsh=MTRtdnJ4bXAxaWtodw==",
     logo: faInstagramSquare,
     name: "Instagram",
+  },
+  {
+    id: 4,
+    link: "https://github.com/AbdulRozaq345",
+    logo: faGithubSquare,
+    name: "Github",
   },
 ];
 
