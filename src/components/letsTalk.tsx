@@ -31,7 +31,7 @@ const links = [
   },
   {
     id: 4,
-    link: "https://github.com/AbdulRozaq345",
+    link: "https://github.com/NexxaCodeID-Agency",
     logo: faGithubSquare,
     name: "Github",
   },
