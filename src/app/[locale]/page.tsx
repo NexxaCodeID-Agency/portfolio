@@ -72,7 +72,7 @@ export default function Home() {
               <NavbarDemo />
               <div className="grid grid-cols-1 gap-10 items-center max-w-screen ">
                 <div className=" flex flex-col justify-center items-center md:items-start order-2 md:order-1 text-center md:text-left">
-                  <div className="relative top-20 mb-6 flex text-center w-full flex-col items-center justify-center md:justify-start md:left-12 md:top-80 ">
+                  <div className="relative top-20 mb-6 flex text-center w-full flex-col items-center justify-center md:justify-start md:left-23 md:top-68 ">
                     {""}
 
                     <GradientText

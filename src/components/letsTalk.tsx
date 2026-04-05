@@ -92,7 +92,7 @@ export default function LetsTalk() {
           <h2 className="text-white text-2xl font-bold tracking-tighter">
             nexxacode
           </h2>
-          <p>hello@nexxacode.site</p>
+          <p>admin@nexxacodeid.site</p>
         </div>
 
         <div className="mt-5 md:mt-0 flex gap-4">
