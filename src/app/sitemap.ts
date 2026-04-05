@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['en', 'id']
   const pages = ['', '/work']
-  const baseUrl = 'https://nexxacodeid.site'
+  const baseUrl = 'https://www.nexxacodeid.site'
 
   return pages.flatMap((page) => 
     locales.map((locale) => ({
