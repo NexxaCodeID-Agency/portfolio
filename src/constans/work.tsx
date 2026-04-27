@@ -17,7 +17,7 @@ export const products: Product[] = [
     dev: "Fang Xiao",
   },
   {
-    title: "ThunderAi (Demo Version",
+    title: "ThunderAi (Demo Version)",
     link: "https://chat-ai-sigma.vercel.app/",
     thumbnail: ["/thunderAi.png"],
     location: "Indonesia",
