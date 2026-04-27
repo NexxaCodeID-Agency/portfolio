@@ -30,5 +30,12 @@ export const products: Product[] = [
     location: "Indonesia",
     dev: "Fang Xiao",
   },
+  {
+    title: "Nocturn",
+    link: "https://nocturn-pro.vercel.app/",
+    thumbnail: ["/nocturn.png"],
+    location: "Indonesia",
+    dev: "Fang Xiao",
+  },
   
 ];

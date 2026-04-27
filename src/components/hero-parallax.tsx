@@ -21,6 +21,11 @@ export const products = [
     link: "https://yayasan-nivara-indonesia.vercel.app/",
     thumbnail: ["/yayasannivara.png"],
   },
+  {
+    title: "Nocturn",
+    link: "https://nocturn-pro.vercel.app/",
+    thumbnail: ["/nocturn.png"],
+  },
 
 
 ];
